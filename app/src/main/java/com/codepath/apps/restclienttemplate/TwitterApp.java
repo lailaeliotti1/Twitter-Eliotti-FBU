@@ -2,6 +2,7 @@ package com.codepath.apps.restclienttemplate;
 
 import android.app.Application;
 import android.content.Context;
+import android.view.View;
 
 import androidx.room.Room;
 
@@ -19,6 +20,7 @@ import com.facebook.stetho.Stetho;
 public class TwitterApp extends Application {
 
     MyDatabase myDatabase;
+
 
     @Override
     public void onCreate() {
