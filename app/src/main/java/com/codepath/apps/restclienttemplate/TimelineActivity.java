@@ -75,9 +75,10 @@ public class TimelineActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId() == R.id.compose) {
-            Toast.makeText(this, "Compose!", Toast.LENGTH_LONG).show();
             //compose icon has been selected
             //navigate to the compopse activty
+            Intent intent = new Intent(this, ComposeActivity.class);
+            startActivity(intent);
             return true;
         }
         return super.onOptionsItemSelected(item);
