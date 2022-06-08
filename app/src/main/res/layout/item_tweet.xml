@@ -8,6 +8,14 @@
     android:layout_marginStart="5dp">
 
     <ImageView
+        android:id="@+id/ivTweetImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBody"
+        android:layout_marginTop="13dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
         android:id="@+id/ivProfileImage"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -36,4 +44,5 @@
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         android:text="TextView" />
+
 </RelativeLayout>
